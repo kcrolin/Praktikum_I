@@ -1,0 +1,125 @@
+* {margin:0;
+padding:0;}
+
+body {font-family: Lato;
+background: #404040 url('http://i61.tinypic.com/34ig3ev.jpg');}
+
+.layout {
+width:80%;
+margin:0 auto;
+}
+
+.container {
+width:90%;
+margin: 0 auto;
+min-height:350px;
+}
+
+header {margin: 0px;
+width: 100%;
+height: 90px;
+background-color: #fff;}
+
+.logo {color:#ff0000;
+font-size:34px;}
+
+.slogan {color: #787878;}
+
+.nav {float: left;
+margin:10px;
+width:45%;
+}
+
+.nav:nth-child(2) {text-align: right;}
+
+.lang {font-size:11px;}
+
+.control {
+float:right;
+width: 67%;}
+
+form {float:left;}
+
+ input { border: none;
+border-bottom: 1px solid #000000; }
+
+.menu ul,li, a {list-style-type: none;
+text-decoration:none;
+display: inline-block;
+color: #787878;
+}
+
+.menu {margin-top:35px;
+font-size:18px;}
+
+a:active {color: #000;
+font-weight:400;}
+
+.post_frame {width: 21%;
+min-height: 320px;
+float: left;
+margin: 15px;
+text-align:right;}
+
+
+.post1 {background-image: url('http://i57.tinypic.com/2qltqb6.jpg');
+color: #fff;
+font-size: 24pt;
+background-size: cover;
+background-repeat: no-repeat;
+height:250px;
+padding:15px;
+text-align:left;}
+
+
+.post2 {background-image: url('http://i57.tinypic.com/nn9zt1.jpg');
+color: #fff;
+font-size: 24pt;
+background-size: cover;
+background-repeat: no-repeat;
+height:250px;
+padding:15px;
+text-align:left;}
+
+.post3 {background-image: url('http://i61.tinypic.com/2ecozzt.jpg');
+color: #fff;
+font-size: 24pt;
+background-size: cover;
+background-repeat: no-repeat;
+height:250px;
+padding:15px;
+text-align:left;}
+
+.post4 {background-image: url('http://i59.tinypic.com/23jics5.jpg');
+color: #fff;
+font-size: 24pt;
+background-size: cover;
+background-repeat: no-repeat;
+height:250px;
+padding:15px;
+text-align:left;}
+
+.intro {
+width: 100%;
+text-align: center;
+color: white;
+margin-bottom:10px;}
+
+h1 {font-size:34px;}
+
+footer {width: 98%;
+margin:0 auto;
+height: 100px;}
+
+footer p {font-size:11px;
+color: #c2c2c2;}
+
+.contact {width: 48%;
+margin:10px;
+float: left;
+border-top: 1px solid #333435;
+}
+
+.edicy {width: 10%;
+float:right;
+margin:10px;}
