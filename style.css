@@ -1,64 +1,87 @@
 * {margin:0;
 padding:0;}
 
-body {font-family: Lato;
-background: #404040 url('http://i61.tinypic.com/34ig3ev.jpg');}
+body {font-family: "Lato";
+background: #404040 ; 
+}
 
 .layout {
-width:80%;
+width:1000px;
 margin:0 auto;
+background: url('http://i61.tinypic.com/34ig3ev.jpg');
 }
 
 .container {
-width:90%;
+width:100%;
 margin: 0 auto;
-min-height:350px;
+min-height:320px;
 }
 
-header {margin: 0px;
-width: 100%;
-height: 90px;
+header {
+margin-top:5px;
+width: 98%;
+height: 80px;
+padding:10px;
 background-color: #fff;}
 
 .logo {color:#ff0000;
-font-size:34px;}
+font-size:34px;
+margin-top:17px;
+font-weight:600;}
 
 .slogan {color: #787878;}
 
 .nav {float: left;
-margin:10px;
 width:45%;
 }
 
-.nav:nth-child(2) {text-align: right;}
+.nav:nth-child(2) {text-align: right;
+margin-left:80px;}
 
-.lang {font-size:11px;}
+.lang {margin-top:3px;
+font-size:11px;}
 
 .control {
+margin-top:26px;
 float:right;
-width: 67%;}
+width: 65%;}
 
 form {float:left;}
 
  input { border: none;
-border-bottom: 1px solid #000000; }
+border-bottom: 1px solid #c2c2c2; }
 
-.menu ul,li, a {list-style-type: none;
-text-decoration:none;
-display: inline-block;
-color: #787878;
+form .submit{background-image: url('luup.PNG');
+margin-bottom:3px;
+font-size: 0; line-height: 0;
+margin-left:-5px;
 }
 
-.menu {margin-top:35px;
+a:active {color: #000;}
+a:hover {color:#000;}
+
+.menu ul,li, a {
+list-style-type: none;
+text-decoration:none;
+display: inline-block;
+color: #787878;}
+
+.menu {margin-top:56px;
 font-size:18px;}
+
+.menu li {margin-left:5px;}
 
 a:active {color: #000;
 font-weight:400;}
 
-.post_frame {width: 21%;
-min-height: 320px;
+.post_frame {
+margin-top:25px;
+width: 21%;
+min-height: 300px;
+font-size:12px;
+color: #606060;
 float: left;
-margin: 15px;
+padding:20px;
 text-align:right;}
 
 
@@ -67,8 +90,8 @@ color: #fff;
 font-size: 24pt;
 background-size: cover;
 background-repeat: no-repeat;
-height:250px;
-padding:15px;
+height:240px;
+padding:21px;
 text-align:left;}
 
 
@@ -77,8 +100,8 @@ color: #fff;
 font-size: 24pt;
 background-size: cover;
 background-repeat: no-repeat;
-height:250px;
-padding:15px;
+height:240px;
+padding:21px;
 text-align:left;}
 
 .post3 {background-image: url('http://i61.tinypic.com/2ecozzt.jpg');
@@ -86,8 +109,8 @@ color: #fff;
 font-size: 24pt;
 background-size: cover;
 background-repeat: no-repeat;
-height:250px;
-padding:15px;
+height:240px;
+padding:21px;
 text-align:left;}
 
 .post4 {background-image: url('http://i59.tinypic.com/23jics5.jpg');
@@ -95,24 +118,27 @@ color: #fff;
 font-size: 24pt;
 background-size: cover;
 background-repeat: no-repeat;
-height:250px;
-padding:15px;
+height:240px;
+padding:21px;
 text-align:left;}
 
 .intro {
-width: 100%;
+width: 97%;
 text-align: center;
 color: white;
-margin-bottom:10px;}
+font-size:18px;
+min-height:170px;
+padding:21px;}
 
-h1 {font-size:34px;}
+.intro h1 {font-size:34px;
+font-weight:100;}
 
 footer {width: 98%;
 margin:0 auto;
 height: 100px;}
 
 footer p {font-size:11px;
-color: #c2c2c2;}
+color: #787878;}
 
 .contact {width: 48%;
 margin:10px;
