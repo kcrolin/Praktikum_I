@@ -31,6 +31,39 @@ font-weight:600;}
 
 .slogan {color: #787878;}
 
+.blog_post{
+width:70%;
+margin:0 auto;
+min-height:670px;
+color:#c2c2c2;
+font-family: Open Sans;
+font-size: 18px;}
+
+.blog_post h1 {text-align:center;
+margin-top: 10px;
+color: #fff;
+font-family: MonterratAlternatesRegular;}
+
+.blog_post h3 {color: #fff;}
+
+
+.postview_menu {
+margin:15px;}
+
+.post_nav {background: #222;
+margin:0 auto;
+width: 970px;
+height:40px;
+text-align: center;
+opacity:0.6;
+font-family:Open Sans;}
+
+.post_nav li {margin-top:10px;}
+.post_nav a {color:#c2c2c2;}
+.post_nav a:hover {color: #fff;
+font-weight:600;}
+.postview_menu  a:hover {color: #fff;}
+
 .nav {float: left;
 width:45%;
 }
