@@ -111,16 +111,11 @@ form {
 float:left;
 }
 
-input {
+input  {
 border: none;
 border-bottom: 1px solid #c2c2c2;
 }
 
-form .submit{
-margin-bottom:3px;
-margin-left:-5px;
-background-image: url('luup.PNG');
-}
 
 a:active {
 color: #000;
